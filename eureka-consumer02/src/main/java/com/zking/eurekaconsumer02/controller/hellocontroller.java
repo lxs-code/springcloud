@@ -17,7 +17,7 @@ public class hellocontroller {
     @RequestMapping("hello")
 public   String  hello(){
     String hello ="消费者【"+na+"】"+ hellofeign.hello();
-//sad
+//saddd
     return  hello;
 }
 
